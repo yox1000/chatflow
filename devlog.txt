@@ -1,0 +1,2 @@
+-- Devlog --
+8/11 11:50 -> Added login.html, welcome.html, SecurityConfig.java, LoginController.java, devlog.txt
