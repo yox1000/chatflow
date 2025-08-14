@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatFlow - Login</title>  <!-- Browser tab title -->
+</head>
+<body>
+  <h1>ChatFlow</h1>                <!-- Main page title -->
+  <h2>Login</h2>
+  
+  <form method="post" action="/login">
+    <label>Username: <input type="text" name="username"/></label><br/>
+    <label>Password: <input type="password" name="password"/></label><br/>
+    <input type="submit" value="Login"/>
+  </form>
+
+  <!-- Show error if present -->
+  <p style="color:red;" th:text="${error}"></p>
+</body>
+</html>
